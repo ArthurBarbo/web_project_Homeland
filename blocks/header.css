@@ -1,16 +1,11 @@
 .header {
-  position: absolute;
-  top:34px;
-  left: 513px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
 }
 
 .header__logo {
-  width: 254px;
+  max-width: 254px;
   height: 70px;
-
-
-
-
-
-
+  margin-bottom: 90px;
 }
