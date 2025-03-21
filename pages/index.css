@@ -5,3 +5,13 @@
 @import url(../blocks/lead.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
+
+@media screen and (max-width: 1024px) {
+
+  }
+  .Intro{
+    padding: 0;
+
+
+  }
+}
