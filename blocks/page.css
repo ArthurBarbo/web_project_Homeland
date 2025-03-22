@@ -1,13 +1,10 @@
 .page {
   color: #fff;
   max-width: 1280px;
-  min-width:320px;
-  margin:0 auto;
-  
-
+  min-width: 320px;
+  margin: 0 auto;
 }
 
-body {background-color: #2a2c2f;}
-
-
-
+body {
+  background-color: #2a2c2f;
+}

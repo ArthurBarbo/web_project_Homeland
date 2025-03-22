@@ -1,13 +1,28 @@
 .footer {
+  width: 166px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 92px 0 24px 0;
+  margin: 92px auto 24px;
 }
 
 .footer__copyright {
   font-family: "Inter", sans-serif;
-  font-weight: 400px;
   font-size: 14px;
   line-height: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 88px auto 24px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .footer {
+    margin-top: 64px;
+  }
+  .footer__copyright {
+    line-height: 14px;
+  }
 }
