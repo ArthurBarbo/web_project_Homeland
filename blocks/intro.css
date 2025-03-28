@@ -1,9 +1,9 @@
-.intro {
+.Intro {
   width: 830px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 410px 0 148px;
+  margin: 0 410px 118px 148px;
 }
 
 .Intro__title {
@@ -41,9 +41,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .intro {
+  .Intro {
     width: 720px;
-    margin: 0 auto;
+    margin: 0 auto 64px auto;
+
   }
   .Intro__title {
     width: 707px;
@@ -60,8 +61,9 @@
 }
 
 @media screen and (max-width: 544px) {
-  .intro {
+  .Intro {
     max-width: 288px;
+    margin-bottom: 38px;
   }
   .Intro__title {
     width: 288px;
