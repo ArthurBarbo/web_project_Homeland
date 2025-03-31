@@ -1,0 +1,95 @@
+.places {
+  width: 984px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+    "title list"
+    "image paragraph"
+    "nft paragraph";
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 80px 0 0 0;
+}
+
+.places__title {
+  grid-area: title;
+  width: 460px;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+.places__list {
+  grid-area: list;
+  margin: 0 0 8px 0;
+  list-style: none;
+  width: 456px;
+  align-self: end;
+}
+.places__url-heading {
+  width: 85px;
+  color: #aaaaaa;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+.places__artist {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+.places__item {
+  grid-area: image;
+  max-width: 100%;
+  margin: 0;
+}
+
+.places__paragraphs {
+  grid-area: paragraph;
+  margin: 0;
+}
+.places__paragraph {
+  width: 484px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  margin: 0 0 25px 0;
+}
+
+.places__NFT {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+  width: 315px;
+  text-decoration: none;
+  color: inherit;
+}
+.places__NFT-back {
+  width: 356px;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+}

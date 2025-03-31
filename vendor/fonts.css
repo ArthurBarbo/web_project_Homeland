@@ -10,3 +10,9 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face{
+  font-family:"Inter";
+  src: url(../vendor/fonts/InterDisplay-SemiBold.woff2) format("woff2");
+  font-weight:600;
+  font-style:normal;
+}
