@@ -32,6 +32,7 @@
   list-style: none;
   width: 456px;
   align-self: end;
+  padding: 0;
 }
 .places__url-heading {
   width: 85px;
@@ -52,10 +53,14 @@
   letter-spacing: 0%;
   margin: 0;
 }
+.places__item:hover {opacity: 0.5;}
+
 .places__item {
   grid-area: image;
   max-width: 100%;
   margin: 0;
+  height: 460px;
+  object-fit: cover;
 }
 
 .places__paragraphs {
@@ -83,6 +88,14 @@
   text-decoration: none;
   color: inherit;
 }
+
+.places__NFT-back:hover {
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
 .places__NFT-back {
   width: 356px;
   border-radius: 4px;
@@ -90,6 +103,10 @@
   padding-right: 20px;
   padding-bottom: 13px;
   padding-left: 20px;
-
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  height:max-content;
+}
+
+@media screen {
+
 }
