@@ -28,5 +28,7 @@
     gap: 12px;
     margin-bottom: 12px;
   }
-  .photo-grid_item{width: 288px;}
+  .photo-grid_item {
+    width: 288px;
+  }
 }
