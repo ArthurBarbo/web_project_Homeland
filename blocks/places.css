@@ -53,7 +53,9 @@
   letter-spacing: 0%;
   margin: 0;
 }
-.places__item:hover {opacity: 0.5;}
+.places__item:hover {
+  opacity: 0.5;
+}
 
 .places__item {
   grid-area: image;
@@ -90,10 +92,12 @@
 }
 
 .places__NFT-back:hover {
-  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .places__NFT-back {
@@ -104,9 +108,82 @@
   padding-bottom: 13px;
   padding-left: 20px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  height:max-content;
+  height: max-content;
 }
 
-@media screen {
+@media screen and (max-width: 1024px) {
+  .place {
+    width: 720px;
+    margin: 72px auto 72px auto;
+    column-gap: 28px;
+    grid-template-rows: auto 340px auto;
+  }
+  .places__title {
+    width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places__list {
+    width: 352px;
+  }
 
+  .places__url-heading {
+    width: 67px;
+  }
+
+  .places__item {
+    width: 340px;
+    height: 340px;
+  }
+  .places__paragraph {
+    width: 352px;
+  }
+  .places__NFT-back {
+    width: 315px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    width: 320px;
+    margin: 50px auto 50px auto;
+  }
+  .place {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title"
+      "list"
+      "image"
+      "paragraph"
+      "nft";
+    row-gap: 30px;
+  }
+  .places__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .places__list {
+    width: 288px;
+  }
+  .places__url-heading {
+    width: 288px;
+  }
+  .places__paragraph {
+    width: 288px;
+  }
+  .places__NFT-back {
+    width: 288px;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .places__item {
+    width: 320px;
+    margin: 0;
+    height: 320px;
+  }
 }

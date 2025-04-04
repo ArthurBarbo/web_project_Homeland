@@ -14,7 +14,7 @@
   .photo-grid {
     width: 720px;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 88px;
+    margin-bottom: 16px;
   }
   .photo-grid_item {
     width: 352px;
@@ -26,7 +26,7 @@
     width: 288px;
     grid-template-columns: repeat(1, 1fr);
     gap: 12px;
-    margin-bottom:62px;
+    margin-bottom: 12px;
   }
   .photo-grid_item{width: 288px;}
 }
