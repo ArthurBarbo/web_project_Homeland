@@ -17,7 +17,7 @@
   margin: 80px 0 0 0;
 }
 
-.places__title {
+.place__title {
   grid-area: title;
   width: 460px;
   font-family: "Inter";
@@ -26,7 +26,7 @@
   line-height: 76px;
   margin: 0;
 }
-.places__list {
+.place__list {
   grid-area: list;
   margin: 0 0 8px 0;
   list-style: none;
@@ -34,7 +34,7 @@
   align-self: end;
   padding: 0;
 }
-.places__url-heading {
+.place__url-heading {
   width: 85px;
   color: #aaaaaa;
   font-family: "Inter";
@@ -45,7 +45,7 @@
   text-transform: uppercase;
   margin: 0 0 8px 0;
 }
-.places__artist {
+.place__artist {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
@@ -53,11 +53,11 @@
   letter-spacing: 0%;
   margin: 0;
 }
-.places__item:hover {
+.place__item:hover {
   opacity: 0.5;
 }
 
-.places__item {
+.place__item {
   grid-area: image;
   max-width: 100%;
   margin: 0;
@@ -65,11 +65,11 @@
   object-fit: cover;
 }
 
-.places__paragraphs {
+.place__paragraphs {
   grid-area: paragraph;
   margin: 0;
 }
-.places__paragraph {
+.place__paragraph {
   width: 484px;
   font-family: "Inter";
   font-weight: 400;
@@ -79,7 +79,7 @@
   margin: 0 0 25px 0;
 }
 
-.places__NFT {
+.place__NFT {
   font-family: "Inter";
   font-weight: 600;
   font-size: 18px;
@@ -91,7 +91,7 @@
   color: inherit;
 }
 
-.places__NFT-back:hover {
+.place__NFT-back:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -100,7 +100,7 @@
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.places__NFT-back {
+.place__NFT-back {
   width: 356px;
   border-radius: 4px;
   padding-top: 13px;
@@ -118,27 +118,27 @@
     column-gap: 28px;
     grid-template-rows: auto 340px auto;
   }
-  .places__title {
+  .place__title {
     width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
-  .places__list {
+  .place__list {
     width: 352px;
   }
 
-  .places__url-heading {
+  .place__url-heading {
     width: 67px;
   }
 
-  .places__item {
+  .place__item {
     width: 340px;
     height: 340px;
   }
-  .places__paragraph {
+  .place__paragraph {
     width: 352px;
   }
-  .places__NFT-back {
+  .place__NFT-back {
     width: 315px;
   }
 }
@@ -160,28 +160,28 @@
     row-gap: 30px;
     margin: 50px auto 50px auto;
   }
-  .places__title {
+  .place__title {
     width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
-  .places__list {
+  .place__list {
     width: 288px;
   }
-  .places__url-heading {
+  .place__url-heading {
     width: 288px;
   }
-  .places__paragraph {
+  .place__paragraph {
     width: 288px;
   }
-  .places__NFT-back {
+  .place__NFT-back {
     width: 288px;
     font-size: 14px;
     line-height: 100%;
     text-align: center;
   }
 
-  .places__item {
+  .place__item {
     width: 320px;
     margin: 0;
     height: 320px;
