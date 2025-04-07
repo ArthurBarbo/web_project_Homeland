@@ -1,5 +1,6 @@
-.places {
-  width: 984px;
+.place__page {
+  max-width: 984px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -19,7 +20,8 @@
 
 .place__title {
   grid-area: title;
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   font-family: "Inter";
   font-weight: 900;
   font-size: 72px;
@@ -30,12 +32,14 @@
   grid-area: list;
   margin: 0 0 8px 0;
   list-style: none;
-  width: 456px;
+  max-width: 456px;
+  width: 100%;
   align-self: end;
   padding: 0;
 }
 .place__url-heading {
-  width: 85px;
+  max-width: 85px;
+  width: 100%;
   color: #aaaaaa;
   font-family: "Inter";
   font-weight: 400;
@@ -71,7 +75,8 @@
   margin: 0;
 }
 .place__paragraph {
-  width: 484px;
+  max-width: 484px;
+  width: 100%;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
@@ -87,7 +92,8 @@
   line-height: 100%;
   letter-spacing: 0;
   margin: 0;
-  width: 315px;
+  max-width: 315px;
+  width: 100%;
   text-decoration: none;
   color: inherit;
 }
@@ -102,7 +108,8 @@
 }
 
 .place__NFT-back {
-  width: 356px;
+  max-width: 356px;
+  width: 100%;
   border-radius: 4px;
   padding-top: 13px;
   padding-right: 20px;
@@ -114,22 +121,26 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
     margin: 72px auto 72px auto;
     column-gap: 28px;
     grid-template-rows: auto 340px auto;
   }
   .place__title {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
     font-size: 42px;
     line-height: 46px;
   }
   .place__list {
-    width: 352px;
+    max-width: 352px;
+    width: 100%;
   }
 
   .place__url-heading {
-    width: 67px;
+    max-width: 67px;
+    width: 100%;
   }
 
   .place__item {
@@ -137,19 +148,22 @@
     height: 340px;
   }
   .place__paragraph {
-    width: 352px;
+    max-width: 352px;
+    width: 100%;
   }
   .place__NFT-back {
     width: 315px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 700px) {
   .places {
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
   }
   .place {
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -163,18 +177,22 @@
     margin: 50px auto 50px auto;
   }
   .place__title {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }
   .place__list {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
   }
   .place__url-heading {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
   }
   .place__paragraph {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
   }
   .place__NFT-back {
     width: 288px;
